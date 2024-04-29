@@ -9,6 +9,7 @@
         /* textos e botões */
             --black-texts: #000;
             --verde-header-botoes: #304E42;
+            --greentoblack: #304E42;
 
         /* header */
             --verde-header: #304E42;
@@ -45,6 +46,7 @@
 
       /* textos e botões */
           --black-texts: #ffffff;
+          --greentoblack: #fff;
           --verde-header-botoes: #489F7C;
 
       /* header */
@@ -231,14 +233,14 @@ section {
     font-size: 2em;
     font-weight: bold;
 
-    color: var(--verde-header-botoes);
+    color: var(--greentoblack);
 }
 
 .texto h2 {
     font-size: 1em;
     font-weight: normal;
 
-    color: var(--verde-header-botoes);
+    color: var(--greentoblack);
 }
 
 
